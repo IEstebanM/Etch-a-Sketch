@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="The Odin Project - Etch a Sketch">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Etch-a-Sketch</title>
+</head>
+<body>
+
+
+<main class="main">	
+	<div id="sketch">
+	
+		<div id="headerSketch">
+			<h1> Etch a Sketch</h1> 
+			<button type="button" onclick="gridRestart()"> Clear </button> 
+		</div>
+		<div id="screen"> </div>		
+	</div>
+	<div id="controls">
+		<div id="panel">
+			<div id="wheel1">
+				<div id="innerShadow"></div>
+			</div>
+			<div id="controlButtons">				
+				<input type="range" min="16" max="64" value="16" class="slider" id="sizeSlider">
+			</div>
+			<div id="wheel2">
+				<div id="innerShadow"></div>
+			</div>
+		</div>
+	</div>
+
+</main>
+<footer></footer>
+
+
+<script type="text/javascript" src="sketch.js"></script>
+</body>
+</html> 

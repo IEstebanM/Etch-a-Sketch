@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+	background-color: #003049;
+	font-family: 'Pacifico', cursive;
+}
+
+
+.main {
+	display: flex;	
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-top: 50px;
+	
+	
+}
+
+#sketch {
+	background-color: red;
+	width: 600px;
+	padding: 0px 50px 0px 50px;
+	border-radius: 15px 15px 0px 0px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	
+	}
+
+#screen {	
+	display: flex;
+	flex-wrap: wrap;
+	height: 500px;
+	width: 500px;
+	background-color: #8f969e;
+	margin: auto;
+	border-radius: 25px ;
+	-webkit-box-shadow: inset 0px 5px 10px 1px #000000;
+	padding: 3%;
+	
+}
+.classUnit {
+	background-color: #8f969e;
+}
+
+
+.classUnit\:active{
+	background-color: #363634;
+}
+
+
+#controls{	
+	background-color: red;
+	width: 600px;
+	height: 100px;
+	padding: 50px ;
+	border-radius: 0px 0px 15px 15px;
+	box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+	
+}
+
+#panel {
+	display: flex;
+	justify-content: space-between;
+}
+
+#wheel1, #wheel2 {
+	display: flex;
+	background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.66) 0px 15px 12px;
+}
+
+#innerShadow {		
+	background: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+	margin: auto;	
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	
+}
+
+#headerSketch {
+	display: flex;
+	justify-content: space-between;
+}
+
+#headerSketch h1 {
+	color: white;
+	text-align: center;
+	font-size: 36px;	
+}
+
+#headerSketch button {	
+	margin: 30px 0px 30px 30px;
+	width: 100px;
+	background-color: white;
+	border: none;
+	border-radius: 15px;
+	font-size: 16px;
+	color: dark-grey;
+	font-family: 'Pacifico', cursive;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.66) 0px 2px 12px;
+	
+}
+
+#headerSketch button:active {
+	box-shadow: none;
+}
+
+#controlButtons {   
+    align-self: center;
+}
+
+
+.slider {
+  -webkit-appearance: none;
+  width: 200px;
+  height: 25px;
+  background: black;
+  outline: none;  
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  border-radius: 15px;
+  
+}
+
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 50px;
+  background: white;
+  cursor: pointer;  
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.66) 0px 15px 12px;
+	
+}
+
+
+
+h3 {
+	text-align: center;
+	color: white;
+}
